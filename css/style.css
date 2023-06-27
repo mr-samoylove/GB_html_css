@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.outer__white {
+    background-color: white;
+}
+
+/* это на будущее, для блоков с серым фоном  */
+.outer__grey {
+    background-color: #FAFAFA;
+}
+
+.center {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header {
+    margin-top: 45px;
+    margin-bottom: 89px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline: 1px solid black; */
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.link__orange {
+    color: #F25822;
+}
+
+.link__orange:hover {
+    color: black;
+}
+
+.link__black {
+    color: #000;
+}
+
+.link__black:hover {
+    color: #F25822;
+}
+
+.link__as-button {
+    color: #AAA;
+    font-size: 15px;
+}
+
+/* просто хоть какая-то анимация */
+.link__as-button:hover {
+    font-size: 25px;
+}
+
+.start__bloc {
+    margin: 0 auto 162px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 41px;
+}
+
+.top__content {
+    max-width: 522px;
+    width: 100%;
+}
+
+.top__text {
+    font-size: 60px;
+    margin: 0 auto 17px auto;
+}
+
+.sub-top__text {
+    color: #888;  
+}
+
+.top__content__btn-wrp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 72px;
+    margin: 37px 0 0 0;
+}
+
+.button__orange {
+    background: #F25822;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 0;
+}
+
+.button__orange:hover {
+    background-color: white;
+    color: #F25822;
+}
+
+.button__orange:active {
+    background: #F25822;
+    color: white;
+}
+
+.top__img {
+    width: 610px;
+    height: 373px;
+}
+
+.top__img {
+    width: 100%;
+    height: 100%;
+}
+
+.companies__bloc {
+    margin: 97px auto;
+}
+
+.companies__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
