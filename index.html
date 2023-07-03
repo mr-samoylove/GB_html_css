@@ -4,135 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="outer__white">    
+    <div class="bloc__grey">
         <div class="header center">
-            <div class="logo">
-                <img src="img/logo.svg" alt="logo_pic">
-                <img src="img/GrowBe.svg" alt="logo_text">
-            </div>
-            <ul class="menu-list">
-                <li class="menu-item">
-                    <a href="#" class="link__orange">Home</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" class="link__black">About Us</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" class="link__black">Services</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" class="link__black">Features</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" class="link__black">Team</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" class="link__black">Blog</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#" class="link__black">Contact</a>
-                </li>
-                <!-- <li class="menu-item">
-                    <button class="button__orange">Get Started</button>
-                </li> -->
+            <ul class="header__group-side-panel">
+                <li class="li__header">
+                    <a href="#">
+                        <img src="img/logo.svg" alt="logo"></a></li>
+                <li class="li__header">
+                    <a href="#">
+                        <img src="img/search button.svg" alt="search button"></a></li>
+            </ul>
+            <ul class="header__group-side-panel">
+                <!-- тут должны быть 3 элемента, но в макете они почему-то собраны в один. li позволит масштабировать -->
+                <li class="li__header">
+                    <a href="#">
+                        <img src="img/3-buttons-panel-header.svg" alt="right side of the header"></a></li>
             </ul>
         </div>
-        <div class="start__bloc center">
-            <div class="top__content">
-                <h1 class="top__text">SEO & Digital Marketing For Your Website.</h1>
-                <p class="sub-top__text">Provide all kind of seo services and help to improve
-                seo ranking. Globally incubate standards.</p>
-                <div class="top__content__btn-wrp">
-                    <button class="button__orange">Start Now</button>
-                    <!-- <img src="img/watch_video.svg" alt="watch_video"> -->
-                    <a href="#" class="link__as-button">Watch Video</a>                    
+    </div>
+    <div class="bloc__pink">
+        <div class="top__content center">
+            <img height="764px" src="img/Man.png" alt="Man" class="top__img">   
+            <div class="top__slogan">
+                <img src="img/pink column.svg" alt="">
+                <div class="slogan">
+                    <p class="slogan-upline">THE BRAND</p>
+                    <p class="slogan-downline">OF LUXERIOUS <pink>FASHION</pink></p>
                 </div>
             </div>
-            <div class="top__img">
-                <img src="img/start_bloc.svg" alt="start_bloc">
-            </div>
-        </div>
-        <div class="companies__bloc center">
-            <ul class="companies__list">
-                <li class="companies__list-item">
-                    <img src="img/companies_logo_1.svg" alt="companies_logo_1">
-                </li>
-                <li class="companies__list-item">
-                    <img src="img/companies_logo_2.svg" alt="companies_logo_2">
-                </li>
-                <li class="companies__list-item">
-                    <img src="img/companies_logo_3.svg" alt="companies_logo_3">
-                </li>
-                <li class="companies__list-item">
-                    <img src="img/companies_logo_4.svg" alt="companies_logo_4">
-                </li>
-                <li class="companies__list-item">
-                    <img src="img/companies_logo_5.svg" alt="companies_logo_5">
-                </li>
-                <li class="companies__list-item">
-                    <img src="img/companies_logo_2.svg" alt="companies_logo_2">
-                </li>
-            </ul>
         </div>
     </div>
-    <!-- <div class="outer__grey">
-        <p class="top__text center">Это просто заглушка с серым фоном</p>
-    </div> -->
-    <div class="outer__white">
-        <div class="cards__bloc center">
-            <div class="link-card__frame">
-                <img height="70px" src="img/illustration_icon1.svg" alt="icon1">
-                <p class="link-card__header">Grow Your Business</p>
-                <p class="link-card__description">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
-                <a href="#" class="link-card__link">Read More...</a>
-            </div>
-            <div class="link-card__frame shadowed-frame">
-                <img height="70px" src="img/illustration_icon2.svg" alt="icon2">
-                <p class="link-card__header">Get Quality Ieads</p>
-                <p class="link-card__description">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
-                <a href="#" class="link-card__link">Read More...</a>
-            </div>
-            <div class="link-card__frame">
-                <img height="70px" src="img/illustration_icon3.svg" alt="icon3">
-                <p class="link-card__header">Drive More Sales</p>
-                <p class="link-card__description">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
-                <a href="#" class="link-card__link">Read More...</a>
+    <div class="bloc__white">
+        <div class="categories__grid center">
+            <div class="category-card__upper">
+                <a href="#">
+                    <img src="img/category-bkg-1.jpg" alt="category-bkg-1"></a></div>
+            <div class="category-card__upper">
+                <a href="#">
+                    <img src="img/category-bkg-2.jpg" alt="category-bkg-2"></a></div>
+            <div class="category-card__upper">
+                <a href="#">
+                    <img src="img/category-bkg-3.jpg" alt="category-bkg-3"></a></div>
+            <div class="category-card__lower">
+                <a href="#">
+                    <img src="img/category-bkg-4.jpg" alt="category-bkg-4"></a>
             </div>
         </div>
-    </div>
-    <div class="outer__grey">
-        <h1 class="learn-more__header center">Why You Should Choose Us.</h1>
-        <p class="learn-more__sub-text center">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business
-        applications through revolutionary catalysts.</p>
-        <div class="learn-more__cards-bloc center">
-            <div class="learn-more__card">
-                <img height=270px src="img/learn-more__img1.svg" alt="learn-more__img1.svg">
-                <p class="learn-more__card-header">Keyword Research</p>
-                <p class="learn-more__card-description">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
-                <button class="button__orange learn-more__card-button">Learn More <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 9L5 5L1 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg></button>
-            </div>
-            <div class="learn-more__card shadowed-frame">
-                <img height=270px src="img/learn-more__img2.svg" alt="learn-more__img2.svg">
-                <p class="learn-more__card-header">Seo Optimazadion</p>
-                <p class="learn-more__card-description">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
-                <button class="button__orange learn-more__card-button">Learn More <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 9L5 5L1 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg></button>
-            </div>
-            <div class="learn-more__card">
-                <img height=270px src="img/learn-more__img3.svg" alt="learn-more__img3.svg">
-                <p class="learn-more__card-header">Social Marketing</p>
-                <p class="learn-more__card-description">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
-                <button class="button__orange learn-more__card-button">Learn More <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 9L5 5L1 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
-            </div>
+        <p class="shop__header center">Fetured Items</p>
+        <p class="shop__sub-header center">Shop for items based on what we featured in this week</p>
+        <div class="shop__grid center">
+            <a href="#" class="shop__piece">
+                <img src="img/piece-1.png" alt="piece-1" class="piece__img">
+                <div class="piece__text-bloc">
+                    <p class="piece__header">ELLERY X M'O CAPSULE</p>
+                    <p class="piece__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="piece__price">$52.00</p>
+                </div>
+            </a>
+            <a href="#" class="shop__piece">
+                <div class="piece__img__pink-box">
+                    <img src="img/piece-2.png" alt="piece-2" class="piece__img">
+                </div>
+                <div class="piece__text-bloc">
+                    <p class="piece__header">ELLERY X M'O CAPSULE</p>
+                    <p class="piece__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool
+                        Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="piece__price">$52.00</p>
+                </div>
+            </a>   
+            <a href="#" class="shop__piece">
+                <img src="img/piece-3.png" alt="piece-3" class="piece__img">
+                <div class="piece__text-bloc">
+                    <p class="piece__header">ELLERY X M'O CAPSULE</p>
+                    <p class="piece__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool
+                        Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="piece__price">$52.00</p>
+                </div>
+            </a>
+            <a href="#" class="shop__piece">
+                <img src="img/piece-4.png" alt="piece-4" class="piece__img">
+                <div class="piece__text-bloc">
+                    <p class="piece__header">ELLERY X M'O CAPSULE</p>
+                    <p class="piece__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool
+                        Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="piece__price">$52.00</p>
+                </div>
+            </a>
+            <a href="#" class="shop__piece">
+                <img src="img/piece-5.png" alt="piece-5" class="piece__img">
+                <div class="piece__text-bloc">
+                    <p class="piece__header">ELLERY X M'O CAPSULE</p>
+                    <p class="piece__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool
+                        Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="piece__price">$52.00</p>
+                </div>
+            </a>
+            <a href="#" class="shop__piece">
+                <img src="img/piece-6.png" alt="piece-6" class="piece__img">
+                <div class="piece__text-bloc">
+                    <p class="piece__header">ELLERY X M'O CAPSULE</p>
+                    <p class="piece__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool
+                        Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="piece__price">$52.00</p>
+                </div>
+            </a>
         </div>
+        <button class="button__browse center">Browse All Product</button>
     </div>
 </body>
 </html>

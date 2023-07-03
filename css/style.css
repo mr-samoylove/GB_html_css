@@ -1,255 +1,192 @@
 * {
-    margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: 'Red Hat Display', sans-serif;
-    color: black;
-    font-size: 20px;
-}
-
-a {
-    text-decoration: none;
+    margin: 0;
 }
 
 li {
     list-style: none;
 }
 
-.outer__white {
-    background-color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
-/* это на будущее, для блоков с серым фоном  */
-.outer__grey {
-    background-color: #FAFAFA;
-    padding-top: 92px;
-    padding-bottom: 100px;
+.bloc__grey {
+    width: 100%;
+    background-color: #222222;
+}
+
+.bloc__pink {
+    width: 100%;
+    background-color: #F1E4E6;
+}
+
+.bloc__white {
+    width: 100%;
+    background-color: #fff;
 }
 
 .center {
-    max-width: 1170px;
+    max-width: 1140px;
     width: 100%;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
     margin: 0 auto;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-}
-
 .header {
-    margin-top: 45px;
-    margin-bottom: 89px;
+    padding-top: 18px;
+    padding-bottom: 19px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* outline: 1px solid black; */
 }
 
-.menu-list {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-}
 
-.link__orange {
-    color: #F25822;
-}
-
-.link__orange:hover {
-    color: black;
-}
-
-.link__black {
-    color: #000;
-}
-
-.link__black:hover {
-    color: #F25822;
-}
-
-.link__as-button {
-    color: #AAA;
-    font-size: 15px;
-}
-
-/* просто хоть какая-то анимация */
-.link__as-button:hover {
-    font-size: 25px;
-}
-
-.start__bloc {
-    margin: 0 auto 162px auto;
+.header__group-side-panel {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     gap: 41px;
 }
 
 .top__content {
-    max-width: 522px;
-    width: 100%;
-}
-
-.top__text {
-    font-size: 60px;
-    margin: 0 auto 17px auto;
-}
-
-.sub-top__text {
-    color: #888;  
-}
-
-.top__content__btn-wrp {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
-    gap: 72px;
-    margin: 37px 0 0 0;
-}
+    gap: 64px;
 
-.button__orange {
-    background: #F25822;
-    color: white;
-    font-size: 15px;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-    width: 140px;
-    height: 50px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    border: 0;
-}
-
-.button__orange:hover {
-    background-color: white;
-    color: #F25822;
-}
-
-.button__orange:active {
-    background: #F25822;
-    color: white;
 }
 
 .top__img {
-    width: 610px;
-    height: 373px;
+    /* -200 - это обрезка пустого пространства фотографии */
+    margin: 0 -200px;
+    max-height: 764px;
 }
 
-.top__img {
-    width: 100%;
-    height: 100%;
-}
-
-.companies__bloc {
-    margin: 0 auto;
-}
-
-.companies__list {
+.top__slogan {
     display: flex;
     justify-content: space-between;
-    gap: 48px;
+    align-items: center;
+    gap: 16px;
 }
 
-.cards__bloc {
-    display: flex;
-    justify-content: space-between;
+
+.slogan-upline {
+    font-size: 48px;
+    font-weight: 900;
 }
 
-.link-card__frame {
-    max-width: 310px;
-    width: 100%;
-    padding: 40px 31px 25px 29px;
+.slogan-downline {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.slogan-downline pink {
+    color: #F16D7F;
+}
+
+.categories__grid {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+
+}
+
+.category-card__upper {
+
+}
+
+.category-card__lower {
+    grid-column: 1 / 3;
+}
+
+.shop__header {
+    margin-top: 96px;;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.shop__sub-header {
+    margin-top: 6px;
+    color: #9F9F9F;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.shop__grid {
+    margin-top: 48px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.shop__piece {
+    background-color: #F8F8F8;
     display: flex;
-    flex-shrink: 0;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-}
-
-.link-card__header {
-    margin-top: 25px;
-    font-size: 24px;
-}
-
-.link-card__description {
-    margin-top: 17px;
-    color: #666;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.link-card__link {
-    margin-top: 25px;
-    font-size: 11px;
-    line-height: 150%;
-    font-weight: bold;
-}
-
-/* просто хоть какая-то анимация */
-.link-card__link:hover {
-    outline: 1px solid black;
-}
-
-.shadowed-frame {
-    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
-}
-
-.learn-more__header {
-    font-size: 45px;
-    text-align: center;
-}
-
-.learn-more__sub-text {
-    margin-top: 19px;
-    max-width: 682px;
-    width: 100%;
-    color: #666;
-    text-align: center;
-    font-size: 16px;
-    line-height: 150%;
-}
-
-.learn-more__cards-bloc {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-}
-
-.learn-more__card {
-    margin-top: 55px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    text-decoration: none;
+    
 }
 
-.learn-more__card-header {
-    margin-top: 25px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
+
+
+.piece__img {
+    min-height: 420px;
+    max-width: 360px;
 }
 
-.learn-more__card-description {
-    padding: 0 30px;
-    margin-top: 22px;
-    color: #AAA;
-    font-size: 15px;
-    line-height: 150%;
-    text-align: center;
+.piece__img__pink-box {
+    width: 100%;
+    background-color: #F7E4E2;
+    display: flex;
+    justify-content: center;
 }
 
-.learn-more__card-button {
-    margin-top: 39px;
-    margin-bottom: 50px;
-    width: 150px;
-    height: 50px;
-    text-align: center;
+.piece__text-bloc {
+    margin: 24px 16px;
+}
+
+.piece__header {
+    color: black;
     font-size: 13px;
-    font-weight: bold;
-    line-height: 150%;
+}
+
+.piece__description {
+    margin-top: 16px;
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.piece__price {
+    margin-top: 16px;
+    color: #F16D7F;
+    font-size: 16px;
+}
+
+.button__browse {
+    margin-top: 48px;
+    margin-bottom: 60px;
+    width: fit-content;
+    color: #F26376;
+    background-color: white;
+    font-size: 16px;
+    padding: 15px 39px;
+    border: 1px solid #F26376;
+    display: flex;
+    justify-content: center;
+}
+
+.button__browse:hover {
+    color: white;
+    background-color: #F26376;
 }
